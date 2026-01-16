@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const dotenv = require("dotenv");
-const { resolve } = require("node:path");
+const dotenv = require('dotenv')
+const { resolve } = require('node:path')
 
-dotenv.config({ path: resolve(process.cwd(), ".env.dev"), quiet: true });
+dotenv.config({ path: resolve(process.cwd(), '.env.dev'), quiet: true })
 
-module.exports = {};
+module.exports = {}
